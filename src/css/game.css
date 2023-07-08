@@ -1,0 +1,68 @@
+td{
+    height:130px;
+    width:155px;
+    border:1px solid rgb(195, 203, 246);
+    text-align: center;
+    cursor:pointer;
+    font-size: 50px;
+    color:yellow
+}
+
+body{
+    background-color: rgb(24, 29, 32);
+    color:bisque;
+}
+
+.waitingstyle{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    border:3px solid white;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.float-start {
+    align-self: flex-start;
+    background-color: #f79646;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.float-end {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.float-start h3,
+.float-end h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.float-start p,
+.float-end p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
